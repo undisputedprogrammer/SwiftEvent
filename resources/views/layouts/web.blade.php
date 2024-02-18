@@ -14,6 +14,8 @@
        @include('pages.web.includes.header')
     </header>
 
+    @include('pages.web.includes.loading')
+
     <main>
         @yield('content')
     </main>
